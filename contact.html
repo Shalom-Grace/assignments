@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+    <style>
+        .contact{
+            display: inline-block;
+        }
+        .contact form{
+    background-color: black;
+    width: 100vw;
+    height: 100vw;
+}
+.contact input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+#em{
+    width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+.contact label{
+    text-align: justify;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="contact">
+        <h1>CONTACT ME</h1>
+    <form action="home.html" method="post">
+    <label for="fn">First name</label>
+    <input type="text" value="First name" required>
+    <p></p>
+    <label for="ln">Last name</label>
+    <input type="text" value="Last name"required>
+    <p></p>
+    <label for="email">EMAIL</label>
+    <input id="em" type="email" value="Your email here"required>
+    <p></p>
+    <label for="subject">SUBJECT</label>
+    <input type="text" value="Subject"required>
+    <p></p>
+    <label for="message">MESSAGE</label>
+    <input type="text" value="Message"required>
+    <p></p>
+    <input type="submit" value="SEND">
+        </form>
+</div>
+</body>
+</html>

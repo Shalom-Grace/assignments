@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .grid-container {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 200px 50px ;
+        grid-template-rows: 150px 50px;
+        background-color: rgb(1, 1, 68);
+        padding: 10px;
+        gap: 5px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .orange-red{
+        background-color: orangered;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        grid-column-start: 200px;
+        width: 250px;
+    }
+    .orange{
+        background-color: orange;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+
+    }
+    .green{
+        background-color: green;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+
+    }
+    .blue{background-color: rgb(64, 107, 224);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+
+}
+   </style>
+    <title>GRID</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="orange-red"></div>
+        <div class="orange"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+        
+    </div>
+</body>
+</html>
